@@ -14,7 +14,7 @@ public class SeleniumDriver {
 
     private static WebDriverWait waitDriver;
     public final static int TIMEOUT = 30;
-    public final static int PAGE_LOAD_TIMEOUT = 10;
+    public final static int PAGE_LOAD_TIMEOUT = 30;
 
 
     private SeleniumDriver() {

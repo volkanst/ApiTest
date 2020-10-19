@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class HomePageScreen extends BaseScreen {
 
-    private static final By POPULER_BETS_BTN_ID = By.xpath("//div[@id='main']//span[contains(text(),'Popüler Bahisler')]");
+    private static final By POPULER_BETS_BTN_ID = By.linkText("Popüler Bahisler");
     private static final By MY_ACCOUNT_BTN_ID = By.xpath("//div[@id='member-info']//a[contains(text(),'Hesabım')]");
     private static final By LOGOUT_BTN_ID = By.xpath("//div[@id='member-info']//a[contains(text(),'Çıkış')]");
 

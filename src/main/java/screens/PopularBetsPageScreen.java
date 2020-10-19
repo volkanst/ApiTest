@@ -25,7 +25,6 @@ public class PopularBetsPageScreen extends BaseScreen {
     private static final By SCREEN_MAP_ID = By.xpath("//div[@class='eventRow']");
 
     public void verifyPopularBetsPageUrl(String url) {
-     //   Assert.assertEquals(url, getCurrentUrl(), "Popüler Bahisler Sayfa Linki Hatalı");
         Assert.assertEquals("Popüler Bahisler Sayfa Linki Hatalı",url,getCurrentUrl());
     }
 
