@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite">
-    <test name="Test">
+<suite name="TestNG" verbose="1">
+    <test name="TestCuke">
+        <parameter name="siteUrl" value="${siteUrl}"/>
+        <parameter name="username" value="${username}"/>
+        <parameter name="password" value="${password}"/>
         <classes>
-            <class name="runner.CucumberRunner"/>
+            <class name="runner.CucumberRunner">
+            </class>
         </classes>
     </test>
 </suite>

@@ -1,6 +1,5 @@
-@ApiTest
   Feature: Api Test
-
+    @ApiTest
     Scenario: Api Test
       When I am on the BasePage "nesine.com"
       And I set LoginPage : username "username" and password "password"

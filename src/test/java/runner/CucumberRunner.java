@@ -11,7 +11,7 @@ import java.io.IOException;
 import static utils.PropertiesReader.getPropertiesReader;
 
 @CucumberOptions(
-        plugin = {"pretty", "json:targer/CucumberRunner/cucumber.json", "html:targer/CucumberRunner/cucumber.html"},
+        plugin = {"pretty", "json:target/CucumberRunner/cucumber.json", "html:target/CucumberRunner/cucumber.html"},
         features = "src/test/java/features",
         glue = "steps"
 )
